@@ -1,5 +1,5 @@
 # EncryptUtil
-# CCPAESEncode
+# feiyangklDES
 
 一行代码完成DES加密，加密模式 DES + CBC
 
