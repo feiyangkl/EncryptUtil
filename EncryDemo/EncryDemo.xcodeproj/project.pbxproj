@@ -15,6 +15,11 @@
 		ED7E2D781DBA0AB90082B79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7E2D761DBA0AB90082B79C /* LaunchScreen.storyboard */; };
 		ED7E2D831DBA0AB90082B79C /* EncryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E2D821DBA0AB90082B79C /* EncryDemoTests.m */; };
 		ED7E2D8E1DBA0AB90082B79C /* EncryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E2D8D1DBA0AB90082B79C /* EncryDemoUITests.m */; };
+		ED7E2DA31DBA0BFE0082B79C /* EncryptUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E2D9D1DBA0BFE0082B79C /* EncryptUtil.m */; };
+		ED7E2DA41DBA0BFE0082B79C /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E2D9F1DBA0BFE0082B79C /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ED7E2DA51DBA0BFE0082B79C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7E2DA21DBA0BFE0082B79C /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ED7E2DA71DBA0C060082B79C /* EncryptUtil.java in Sources */ = {isa = PBXBuildFile; fileRef = ED7E2DA61DBA0C060082B79C /* EncryptUtil.java */; };
+		ED7E2DA91DBA0C0A0082B79C /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED7E2DA81DBA0C0A0082B79C /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		ED7E2D891DBA0AB90082B79C /* EncryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7E2D8D1DBA0AB90082B79C /* EncryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryDemoUITests.m; sourceTree = "<group>"; };
 		ED7E2D8F1DBA0AB90082B79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7E2D9C1DBA0BFE0082B79C /* EncryptUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptUtil.h; sourceTree = "<group>"; };
+		ED7E2D9D1DBA0BFE0082B79C /* EncryptUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptUtil.m; sourceTree = "<group>"; };
+		ED7E2D9E1DBA0BFE0082B79C /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		ED7E2D9F1DBA0BFE0082B79C /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		ED7E2DA01DBA0BFE0082B79C /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		ED7E2DA11DBA0BFE0082B79C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		ED7E2DA21DBA0BFE0082B79C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		ED7E2DA61DBA0C060082B79C /* EncryptUtil.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = EncryptUtil.java; sourceTree = "<group>"; };
+		ED7E2DA81DBA0C0A0082B79C /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,8 @@
 		ED7E2D671DBA0AB80082B79C /* EncryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ED7E2DA81DBA0C0A0082B79C /* Untitled.gif */,
+				ED7E2D9B1DBA0BFE0082B79C /* EncryptUtil */,
 				ED7E2D6B1DBA0AB90082B79C /* AppDelegate.h */,
 				ED7E2D6C1DBA0AB90082B79C /* AppDelegate.m */,
 				ED7E2D6E1DBA0AB90082B79C /* ViewController.h */,
@@ -138,6 +154,21 @@
 				ED7E2D8F1DBA0AB90082B79C /* Info.plist */,
 			);
 			path = EncryDemoUITests;
+			sourceTree = "<group>";
+		};
+		ED7E2D9B1DBA0BFE0082B79C /* EncryptUtil */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E2DA61DBA0C060082B79C /* EncryptUtil.java */,
+				ED7E2D9C1DBA0BFE0082B79C /* EncryptUtil.h */,
+				ED7E2D9D1DBA0BFE0082B79C /* EncryptUtil.m */,
+				ED7E2D9E1DBA0BFE0082B79C /* GTMBase64.h */,
+				ED7E2D9F1DBA0BFE0082B79C /* GTMBase64.m */,
+				ED7E2DA01DBA0BFE0082B79C /* GTMDefines.h */,
+				ED7E2DA11DBA0BFE0082B79C /* JSONKit.h */,
+				ED7E2DA21DBA0BFE0082B79C /* JSONKit.m */,
+			);
+			path = EncryptUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7E2D781DBA0AB90082B79C /* LaunchScreen.storyboard in Resources */,
+				ED7E2DA91DBA0C0A0082B79C /* Untitled.gif in Resources */,
 				ED7E2D751DBA0AB90082B79C /* Assets.xcassets in Resources */,
 				ED7E2D731DBA0AB90082B79C /* Main.storyboard in Resources */,
 			);
@@ -273,9 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7E2DA71DBA0C060082B79C /* EncryptUtil.java in Sources */,
 				ED7E2D701DBA0AB90082B79C /* ViewController.m in Sources */,
 				ED7E2D6D1DBA0AB90082B79C /* AppDelegate.m in Sources */,
+				ED7E2DA51DBA0BFE0082B79C /* JSONKit.m in Sources */,
+				ED7E2DA41DBA0BFE0082B79C /* GTMBase64.m in Sources */,
 				ED7E2D6A1DBA0AB90082B79C /* main.m in Sources */,
+				ED7E2DA31DBA0BFE0082B79C /* EncryptUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
